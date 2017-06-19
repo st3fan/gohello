@@ -3,7 +3,7 @@ package hello
 
 import "fmt"
 
-// Hello returns a friendly hello message.
+// Hello returns a friendly hello message in the specified locale.
 
 func Hello(name string, locale string) (string, error) {
 	if locale != "en" {
