@@ -6,7 +6,6 @@ import (
 	"github.com/st3fan/gohello"
 )
 
-
 func Test_Hello(t *testing.T) {
 	if hello.Hello("Gopher") != "Hello, Gopher!" {
 		t.Error("Expected 'Hello, Gopher!'")
