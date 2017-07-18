@@ -18,3 +18,11 @@ func Test_HelloAnonymous(t *testing.T) {
 		t.Error("Expected 'Hello, anonymous!'")
 	}
 }
+
+// Test Unicode strings
+func Test_Unicode(t *testing.T) {
+	if hello.Hello("Amélie") != "Hello, Amélie!" {
+		t.Error("Expected 'Hello, Amélie!'")
+	}
+}
+
