@@ -1,7 +1,7 @@
 
 package hello
 
-// Hello returns a friendly hello message.
+// Hello returns a friendly hello message
 
 func Hello(name string) string {
 	if name == "" {
